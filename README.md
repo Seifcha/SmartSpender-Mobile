@@ -30,7 +30,8 @@ SmartSpender est une application mobile conçue pour aider les utilisateurs tuni
 Pour installer et tester l'application localement sur android:
 
 1. Clonez ce dépôt.
-2. Installez les dépendances Ionic et React :
+2. Installez les dépendances Ionic et React.
+3. Exécutez:
    ```bash
    ionic cap run android --livereload --external --public --verbose
 ## Partie Web (administration)
