@@ -1,0 +1,164 @@
+/* App.css */
+ion-card {
+  margin-bottom: 20px;
+}
+
+ion-button {
+  border-radius: 20px;
+}
+
+ion-button:hover {
+  filter: brightness(90%);
+}
+
+.toolbar-background {
+  --background: #f4f4f4; /* Background color for the header */
+}
+
+.navigation-bar {
+  --background: #cccccc; /* Background color for the navigation bar */
+}
+
+.add-button {
+  --background: #4caf50; /* Background color for the add button */
+  --color: #ffffff; /* Text color for the add button */
+}
+/* AddCategoryPage.css */
+.add-button {
+  border-radius: 20px;
+  margin: 10px; /* Ajoutez des marges pour l'espacement */
+}
+
+.add-button:hover {
+  filter: brightness(90%);
+}
+
+.navigation-bar {
+  --background: #cccccc; /* Couleur de fond pour la barre de navigation */
+}
+/* AddCategoryPage.css */
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+input {
+  background: #1a1a1a;
+  border: none;
+  margin: 2em;
+  padding: 5em;
+
+  color: #a2a2a2;
+  font-size: 1.1em;
+
+  outline: none;
+}
+ion-radio {
+  --border-radius: 4px;
+  --inner-border-radius: 4px;
+
+  --color: #ddd;
+  --color-checked: #32cd32;
+}
+
+ion-radio.ios::part(container) {
+  width: 20px;
+  height: 20px;
+
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+.radio-checked.ios::part(container) {
+  border-color: #32cd32;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+.avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+ion-skeleton-text {
+  --border-radius: 9999px;
+  --background: rgba(
+    95,
+    255,
+    51,
+    0.274
+  ); /* Couleur lime avec une opacité de 0.8 */
+  --background-rgb: 204, 255, 0; /* Valeurs RGB de la couleur lime */
+}
+.ion-fab-buttonn::part(native) {
+  background-color: #32cd32;
+  border-radius: 15px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3),
+    0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  color: rgb(255, 255, 255);
+}
+
+.ion-fab-buttonn::part(native):hover::after {
+  background-color: #6ed16e;
+}
+
+.ion-fab-buttonn::part(native):active::after {
+  background-color: #6bd26b;
+}
+/* styles.css */
+.input {
+  border-radius: 15px;
+}
+.toolbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+ion-card {
+  overflow: hidden;
+
+  border-radius: 18px; /* Vous pouvez ajuster la valeur du border-radius selon vos préférences */
+}
+.chart-card {
+  height: 400px; /* ou toute autre hauteur que vous préférez */
+  overflow: auto; /* Activer le défilement pour le contenu dépassant les limites de la carte */
+}
+
+#cart-btn {
+  position: relative;
+}
+
+#cart-badge {
+  position: absolute;
+  top: 1px;
+  right: 3px;
+  background-color: red;
+}
+
+.circle {
+  position: relative;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+  background-color: #32cd32;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 1px;
+  margin-left: 5px;
+}
+
+#animateddiv1 {
+  position: absolute;
+  top: 130px;
+  width: 2px;
+  height: 2px;
+}

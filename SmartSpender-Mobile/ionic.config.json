@@ -1,0 +1,7 @@
+{
+  "name": "Smart-Spender",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
